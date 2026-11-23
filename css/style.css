@@ -1,0 +1,188 @@
+/* All common CSS Start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+/* All common CSS End */
+
+/* Header part Start  */
+#headerpart{
+    padding: 30px 0;
+    background: #07110D
+}
+
+.headerflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.menu ul{
+    display: flex;
+    column-gap: 40px;
+   
+}
+
+.menu ul li a{
+    color: #9DB3A8;
+    font-size: 15px;
+    font-weight: 500;
+     font-family: "Inter", sans-serif;
+}
+
+.menu.headerbtn a{
+    padding: 12px 22px;
+    background: #1FB57F;
+    border-radius: 999px;
+    color: #07110D;
+    font-size: 14px;
+    font-weight: 600px;
+    font-family: "Inter", sans-serif;
+}
+
+.bannerBtn a{
+    padding: 16px 28px;
+    background: #F42A41;
+    border-radius: 999px;
+    color: #F4EFE6;
+    font-size: 16px;
+    font-weight: 600px;
+     font-family: "Inter", sans-serif;
+     border: 1px solid #F42A41;
+     transition: .4s;
+
+}
+.bannerBtn a:hover{
+    background: transparent;
+    border: 1px solid #9DB3A8;
+}
+/* Header part End */
+
+/* Banner part Start  */
+#bannerPart{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: #07110D;
+}
+.bannerLeft{
+    width: 60%;
+}
+.bannerRight{
+    width: 40%;
+    position: relative;
+}
+.bannerRight img{
+    width: 100%;
+   
+
+}
+.bannerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rankcard{
+    padding: 18px 22px;
+    background: #07110D;
+    border-radius: 32px;
+    position: absolute;
+    bottom: 10px;
+    left: 28px;
+}
+.rankcard h3{
+    color: #F4EFE6;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 28px;
+     font-family: "Bebas Neue", sans-serif;
+}
+
+.rankcard p{
+    color:#9DB3A8;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.bannerLeft h4{
+     color:#1FB57F;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+}
+
+.bannerLeft h1 {
+    color: #F4EFE6;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 148px;
+     font-family: "Bebas Neue", sans-serif;
+     width: 456px;
+     line-height: 88%;
+     padding-top: 45px;
+     padding-bottom: 30px;
+
+}
+.bannerLeft p{
+    color: #9DB3A8;
+    font-size: 19px;
+    font-weight: 400px;
+    font-family: "Inter", sans-serif;
+    line-height: 155%;
+    width: 560px;
+}
+
+.bannerBtn{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 30px;
+}
+
+.bannerBtn a{
+    padding: 16px 28px;
+}
+
+
+
+/* Banner part End  */
+
+/* Banner part Start  */
+/* Banner part End  */
+
+/* Banner part Start  */
+/* Banner part End  */
+
+/* Banner part Start  */
+/* Banner part End  */
+
+/* Banner part Start  */
+/* Banner part End  */
+
